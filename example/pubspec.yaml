@@ -1,5 +1,5 @@
-name: vpn_checker_example
-description: Demonstrates how to use the vpn_checker plugin.
+name: flutter_vpn_detector_example
+description: Demonstrates how to use the flutter_vpn_detector plugin.
 publish_to: 'none'
 
 version: 1.0.0+1
@@ -11,7 +11,7 @@ dependencies:
   flutter:
     sdk: flutter
 
-  vpn_checker:
+  flutter_vpn_detector:
     path: ../
 
   cupertino_icons: ^1.0.2

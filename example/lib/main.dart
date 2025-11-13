@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:vpn_checker/vpn_checker.dart';
+import 'package:flutter_vpn_detector/vpn_checker.dart';
 
 void main() {
   runApp(const MyApp());

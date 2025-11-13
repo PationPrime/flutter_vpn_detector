@@ -3,10 +3,10 @@ import FlutterMacOS
 import SystemConfiguration
 import CoreFoundation
 
-public class VpnCheckerPlugin: NSObject, FlutterPlugin {
+public class FlutterVpnDetectorPlugin: NSObject, FlutterPlugin {
     public static func register(with registrar: FlutterPluginRegistrar) {
-        let channel = FlutterMethodChannel(name: "vpn_checker", binaryMessenger: registrar.messenger)
-        let instance = VpnCheckerPlugin()
+        let channel = FlutterMethodChannel(name: "flutter_vpn_detector", binaryMessenger: registrar.messenger)
+        let instance = FlutterVpnDetectorPlugin()
         registrar.addMethodCallDelegate(instance, channel: channel)
     }
     

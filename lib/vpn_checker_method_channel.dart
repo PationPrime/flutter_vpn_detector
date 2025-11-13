@@ -6,7 +6,7 @@ import 'vpn_checker_platform_interface.dart';
 class MethodChannelVpnChecker extends VpnCheckerPlatform {
   /// The method channel used to interact with the native platform.
   @visibleForTesting
-  final methodChannel = const MethodChannel('vpn_checker');
+  final methodChannel = const MethodChannel('flutter_vpn_detector');
 
   @override
   Future<bool> isVpnActive() async {

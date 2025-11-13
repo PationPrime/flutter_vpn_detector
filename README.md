@@ -1,4 +1,4 @@
-# VPN Checker
+# Flutter VPN Detector
 
 A Flutter plugin to detect if the device is currently using a VPN connection. This plugin supports Android, iOS, macOS, Windows, and Linux platforms.
 
@@ -17,7 +17,7 @@ Add this to your package's `pubspec.yaml` file:
 
 ```yaml
 dependencies:
-  vpn_checker: ^0.1.0
+  flutter_vpn_detector: ^0.1.0
 ```
 
 Then run:
@@ -43,7 +43,7 @@ For detailed integration guide, see [INTEGRATION_GUIDE.md](INTEGRATION_GUIDE.md)
 ## Usage
 
 ```dart
-import 'package:vpn_checker/vpn_checker.dart';
+import 'package:flutter_vpn_detector/vpn_checker.dart';
 
 // Check if VPN is active
 bool isActive = await VpnChecker.isVpnActive();
@@ -103,5 +103,5 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 ## Issues
 
-If you encounter any issues or have questions, please file them on the [GitHub issue tracker](https://github.com/tikoua/vpn_checker/issues).
+If you encounter any issues or have questions, please file them on the [GitHub issue tracker](https://github.com/tikoua/flutter_vpn_detector/issues).
 

@@ -1,4 +1,4 @@
-package com.tikoua.vpn_checker
+package com.tikoua.flutter_vpn_detector
 
 import android.content.Context
 import android.net.ConnectivityManager
@@ -19,8 +19,8 @@ import kotlinx.coroutines.withContext
 import java.io.File
 import java.util.Locale
 
-/** VpnCheckerPlugin */
-class VpnCheckerPlugin : FlutterPlugin, MethodCallHandler {
+/** FlutterVpnDetectorPlugin */
+class FlutterVpnDetectorPlugin : FlutterPlugin, MethodCallHandler {
     private lateinit var channel: MethodChannel
     private lateinit var context: Context
     private val scope = CoroutineScope(SupervisorJob() + Dispatchers.Main)
@@ -41,7 +41,7 @@ class VpnCheckerPlugin : FlutterPlugin, MethodCallHandler {
     }
 
     override fun onAttachedToEngine(@NonNull flutterPluginBinding: FlutterPlugin.FlutterPluginBinding) {
-        channel = MethodChannel(flutterPluginBinding.binaryMessenger, "vpn_checker")
+        channel = MethodChannel(flutterPluginBinding.binaryMessenger, "flutter_vpn_detector")
         channel.setMethodCallHandler(this)
         context = flutterPluginBinding.applicationContext
     }

@@ -1,4 +1,4 @@
-# VPN Checker (VPN检测器)
+# Flutter VPN Detector (Flutter VPN检测器)
 
 一个用于检测设备当前是否使用VPN连接的Flutter插件。支持Android、iOS、macOS、Windows和Linux平台。
 
@@ -17,7 +17,7 @@
 
 ```yaml
 dependencies:
-  vpn_checker: ^0.1.0
+  flutter_vpn_detector: ^0.1.0
 ```
 
 然后运行：
@@ -43,7 +43,7 @@ flutter pub get
 ## 使用方法
 
 ```dart
-import 'package:vpn_checker/vpn_checker.dart';
+import 'package:flutter_vpn_detector/vpn_checker.dart';
 
 // 检查VPN是否激活
 bool isActive = await VpnChecker.isVpnActive();
@@ -209,7 +209,7 @@ MIT License - 详见 LICENSE 文件。
 
 ## 问题反馈
 
-如果遇到任何问题或有疑问，请在 [GitHub issue tracker](https://github.com/tikoua/vpn_checker/issues) 上提交。
+如果遇到任何问题或有疑问，请在 [GitHub issue tracker](https://github.com/tikoua/flutter_vpn_detector/issues) 上提交。
 
 ## 更新日志
 

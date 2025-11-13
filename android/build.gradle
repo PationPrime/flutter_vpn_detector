@@ -1,4 +1,4 @@
-group 'com.tikoua.vpn_checker'
+group 'com.tikoua.flutter_vpn_detector'
 version '1.0-SNAPSHOT'
 
 buildscript {
@@ -25,7 +25,7 @@ apply plugin: 'com.android.library'
 apply plugin: 'kotlin-android'
 
 android {
-    namespace 'com.tikoua.vpn_checker'
+    namespace 'com.tikoua.flutter_vpn_detector'
     compileSdk 34
 
     compileOptions {
