@@ -20,11 +20,6 @@ dev_dependencies:
 flutter:
   plugin:
     platforms:
-      android:
-        package: com.tikoua.flutter_vpn_detector
-        pluginClass: FlutterVpnDetectorPlugin
-      ios:
-        pluginClass: FlutterVpnDetectorPlugin
       macos:
         pluginClass: FlutterVpnDetectorPlugin
       windows:
